@@ -1,5 +1,8 @@
 # Multimodal Clinical Diagnosis v4 (CXR, ECG & Labs)
 
+##Advertencias:
+Si bien el uso del proyecto se baso en el uso de SYMILE from MIMICS, es necesario mencionar que para evitar problemas de oconexion gracias a ciertos inconvenientes puntuales se opto por usar la base de datos descargada. Y los codigos tanto las "3 torres-Modelo" y el "transformer" estan diseñados y ejecutados con esa caracteristica especifica.
+
 ## 📌 Descripción del Proyecto
 Este repositorio contiene la implementación de una **Arquitectura Multimodal de "Tres Torres" (Late Fusion)** diseñada para el diagnóstico automatizado en entornos de cuidados intensivos. Inspirado en modelos como NYUTron, el sistema cruza información de tres modalidades clínicas diferentes para emitir diagnósticos robustos (ej. Cardiomegalia, Edema, Derrame Pleural, Atelectasia).
 
